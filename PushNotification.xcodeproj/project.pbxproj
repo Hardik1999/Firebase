@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383B8D87877C0239D28DEBFE /* Pods_PushNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ACFB2511579EAB46CDE463 /* Pods_PushNotification.framework */; };
 		FA614FBD262405D6002A2714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FBC262405D6002A2714 /* AppDelegate.swift */; };
 		FA614FBF262405D6002A2714 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FBE262405D6002A2714 /* SceneDelegate.swift */; };
 		FA614FC1262405D6002A2714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FC0262405D6002A2714 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		FA614FC9262405DC002A2714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA614FC7262405DC002A2714 /* LaunchScreen.storyboard */; };
 		FA614FD4262405DD002A2714 /* PushNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FD3262405DD002A2714 /* PushNotificationTests.swift */; };
 		FA614FDF262405DD002A2714 /* PushNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FDE262405DD002A2714 /* PushNotificationUITests.swift */; };
+		FA614FF62624092F002A2714 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA614FF52624092F002A2714 /* PushViewController.swift */; };
+		FA614FFB26240F32002A2714 /* Hardik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA614FFA26240F32002A2714 /* Hardik.jpg */; };
+		FA61503026242406002A2714 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA61502F26242406002A2714 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509CEF154DC9908B7EE71750 /* Pods-PushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification.release.xcconfig"; path = "Target Support Files/Pods-PushNotification/Pods-PushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		C2ACFB2511579EAB46CDE463 /* Pods_PushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4D428639042842D31038B8 /* Pods-PushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification.debug.xcconfig"; path = "Target Support Files/Pods-PushNotification/Pods-PushNotification.debug.xcconfig"; sourceTree = "<group>"; };
 		FA614FB9262405D6002A2714 /* PushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA614FBC262405D6002A2714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA614FBE262405D6002A2714 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		FA614FDA262405DD002A2714 /* PushNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA614FDE262405DD002A2714 /* PushNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationUITests.swift; sourceTree = "<group>"; };
 		FA614FE0262405DD002A2714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA614FF52624092F002A2714 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		FA614FFA26240F32002A2714 /* Hardik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hardik.jpg; sourceTree = "<group>"; };
+		FA615022262416D6002A2714 /* PushNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotification.entitlements; sourceTree = "<group>"; };
+		FA61502F26242406002A2714 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383B8D87877C0239D28DEBFE /* Pods_PushNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C7B9D620A514B6274EFB14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACFB2511579EAB46CDE463 /* Pods_PushNotification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F30616A0C6CA3F6BA85A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D428639042842D31038B8 /* Pods-PushNotification.debug.xcconfig */,
+				509CEF154DC9908B7EE71750 /* Pods-PushNotification.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA614FB0262405D6002A2714 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				FA614FD2262405DD002A2714 /* PushNotificationTests */,
 				FA614FDD262405DD002A2714 /* PushNotificationUITests */,
 				FA614FBA262405D6002A2714 /* Products */,
+				C7F30616A0C6CA3F6BA85A24 /* Pods */,
+				8C7B9D620A514B6274EFB14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +130,13 @@
 		FA614FBB262405D6002A2714 /* PushNotification */ = {
 			isa = PBXGroup;
 			children = (
+				FA615022262416D6002A2714 /* PushNotification.entitlements */,
+				FA61502F26242406002A2714 /* GoogleService-Info.plist */,
 				FA614FBC262405D6002A2714 /* AppDelegate.swift */,
+				FA614FF52624092F002A2714 /* PushViewController.swift */,
 				FA614FBE262405D6002A2714 /* SceneDelegate.swift */,
 				FA614FC0262405D6002A2714 /* ViewController.swift */,
+				FA614FFA26240F32002A2714 /* Hardik.jpg */,
 				FA614FC2262405D6002A2714 /* Main.storyboard */,
 				FA614FC5262405DC002A2714 /* Assets.xcassets */,
 				FA614FC7262405DC002A2714 /* LaunchScreen.storyboard */,
@@ -135,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA614FE3262405DD002A2714 /* Build configuration list for PBXNativeTarget "PushNotification" */;
 			buildPhases = (
+				A9CF5E680F39DB896A2236FE /* [CP] Check Pods Manifest.lock */,
 				FA614FB5262405D6002A2714 /* Sources */,
 				FA614FB6262405D6002A2714 /* Frameworks */,
 				FA614FB7262405D6002A2714 /* Resources */,
+				A188B6F4267E59DE5349F30A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA614FFB26240F32002A2714 /* Hardik.jpg in Resources */,
 				FA614FC9262405DC002A2714 /* LaunchScreen.storyboard in Resources */,
+				FA61503026242406002A2714 /* GoogleService-Info.plist in Resources */,
 				FA614FC6262405DC002A2714 /* Assets.xcassets in Resources */,
 				FA614FC4262405D6002A2714 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +292,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A188B6F4267E59DE5349F30A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotification/Pods-PushNotification-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushNotification/Pods-PushNotification-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotification/Pods-PushNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CF5E680F39DB896A2236FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA614FB5262405D6002A2714 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +341,7 @@
 			files = (
 				FA614FC1262405D6002A2714 /* ViewController.swift in Sources */,
 				FA614FBD262405D6002A2714 /* AppDelegate.swift in Sources */,
+				FA614FF62624092F002A2714 /* PushViewController.swift in Sources */,
 				FA614FBF262405D6002A2714 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +515,11 @@
 		};
 		FA614FE4262405DD002A2714 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4D428639042842D31038B8 /* Pods-PushNotification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotification/PushNotification.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U25EWBYDXC;
 				INFOPLIST_FILE = PushNotification/Info.plist;
@@ -443,7 +527,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bombaysoftware.PushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombaysoftware.PushNotificationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,9 +536,11 @@
 		};
 		FA614FE5262405DD002A2714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509CEF154DC9908B7EE71750 /* Pods-PushNotification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotification/PushNotification.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U25EWBYDXC;
 				INFOPLIST_FILE = PushNotification/Info.plist;
@@ -462,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bombaysoftware.PushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bombaysoftware.PushNotificationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
